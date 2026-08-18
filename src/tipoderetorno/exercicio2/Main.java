@@ -1,4 +1,4 @@
-package exercicio2;
+package tipoderetorno.exercicio2;
 
 import java.util.Scanner;
 

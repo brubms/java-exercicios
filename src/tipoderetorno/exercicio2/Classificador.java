@@ -1,4 +1,4 @@
-package exercicio2;
+package tipoderetorno.exercicio2;
 
 public class Classificador {
 

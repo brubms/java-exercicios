@@ -1,4 +1,4 @@
-package exercicio3;
+package tipoderetorno.exercicio3;
 
 public class Loja {
     
