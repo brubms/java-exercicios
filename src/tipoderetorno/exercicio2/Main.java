@@ -13,7 +13,15 @@ public class Main {
         System.out.println("Digite o valor:");
         double valor = scan.nextDouble();
 
-        System.out.println(classi.classificarPreco(valor));
+        Saudacao saudar = new Saudacao();
+        System.out.println("Digite seu nome: ");
+        String nome = scan.nextLine();
+        System.out.println("Qual periodo: ");
+        String periodo = scan.nextLine();
+        String saudacao = saudar.saudar(nome, periodo);
+
+        System.out.println(saudacao);
+
         
         
     }
