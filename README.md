@@ -13,3 +13,14 @@ Execícios de fixação de Java.
 - [x] Dobro (int)
 - [x] Saudação (String)
 - [x] Desconto VIP (double)
+
+### Escopo de Variáveis
+
+- [x] tentar acessar uma variável local dentro de um método da classe.
+
+### Wrappers
+
+- [x] conversor de String para int
+- [x] conversor de String para double
+- [x] conversor de int para String
+- [x] conversor de double para String
