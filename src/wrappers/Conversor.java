@@ -13,7 +13,7 @@ public class Conversor {
     public String converterParaStringInt(int numero){
         return String.valueOf(numero);
     }
-    public String converterParaStringDouble(int numero){
+    public String converterParaStringDouble(double numero){
         return String.valueOf(numero);
     }
 

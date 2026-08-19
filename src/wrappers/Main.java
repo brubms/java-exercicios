@@ -12,7 +12,7 @@ public class Main {
         
         System.out.println("-------------------");
 
-        String texto1 =  conv.converterParaStringDouble(10);
+        String texto1 =  conv.converterParaStringDouble(10.7);
         String texto2 = conv.converterParaStringInt(15);
         System.out.println("Inteiro convertido: " + texto2);
         System.out.println("Doble convertido: " + texto1);
