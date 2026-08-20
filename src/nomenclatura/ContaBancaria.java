@@ -13,15 +13,8 @@ public class ContaBancaria {
     }
 
     public void fazerSaque(double valor){
-        if(temSaldo()== false){
-            
-           
-        }
-        else{
-            if(valor <= saldo){
-                saldo = saldo - valor;
-            }
-            
+        if(valor > 0 && valor <= saldo ){
+            saldo -= valor;
         }
     }
     public void fazerDeposito(double valor){
@@ -38,6 +31,13 @@ public class ContaBancaria {
     public double getSaldo(){
         return this.saldo;
     }
+    public String getNomeCliente(){
+        return this.nomeCliente;
+    }
+    public int getNumeroConta(){
+        return this.numeroConta;
+    }
+
 
     
 
